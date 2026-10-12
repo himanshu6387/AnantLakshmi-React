@@ -5,6 +5,11 @@ import Child from './components/Child'
 import ConditionalRendering from './components/ConditionalRendering'
 import EventHandling from './components/EventHandling'
 import Counter from './components/Counter'
+import Controlled from './components/Controlled'
+import SignUp from './components/SignUp'
+import Login from './component/Login'
+import FetchCount from './component/FetchCount'
+import Anjali from './component/Anjali'
 
 const App = () => {
 
@@ -25,13 +30,19 @@ const App = () => {
 
   return (
     <div>
+
+      {/* <Anjali/> */}
+      {/* <FetchCount/> */}
+      {/* <SignUp/> */}
+      <Login/>
+      {/* <Controlled/>
       <EventHandling/>
       <Counter/>
       <Home/>
-      <Cart/>
-      <Child prop={name} data={product} obj={car} fun={popUp}/>
+      <Cart/> */}
+      {/* <Child prop={name} data={product} obj={car} fun={popUp}/> */}
       {/* <Child name="Mohith CSE-C"/> */}
-      <ConditionalRendering/> 
+      {/* <ConditionalRendering/>  */}
     </div>
   )
 }
